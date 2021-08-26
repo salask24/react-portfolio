@@ -9,7 +9,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='#About' onClick={toggle}>About Me</SidebarLink>
+                    <SidebarLink to='#AboutMe' onClick={toggle}>About Me</SidebarLink>
                     <SidebarLink to='#Projects' onClick={toggle}>Projects</SidebarLink>
                     <SidebarLink to='#Contact' onClick={toggle}>Contact</SidebarLink>
                     <SidebarLink to='#Resume' onClick={toggle}>Resume</SidebarLink>
@@ -19,4 +19,4 @@ const Sidebar = ({ isOpen, toggle }) => {
     )
 }
 
-export default Sidebar
+export default Sidebar;

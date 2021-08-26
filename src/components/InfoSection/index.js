@@ -1,7 +1,8 @@
 import React from 'react';
 import Video from '../../videos/video.mp4';
-import { Button } from '../ButtonElement';
-import { InfoContainer, InfoBg, VideoBg, InfoContent, InfoH1, InfoP, InfoBtnWrapper } from './InfoElements'
+// import { Button } from '../ButtonElement';
+import { InfoContainer, InfoBg, VideoBg, InfoContent, InfoH1, InfoP } from './InfoElements'
+//add InfoBtnWrapper if wanting to add the button again
 
 const InfoSection = () => {
     return (
@@ -11,12 +12,12 @@ const InfoSection = () => {
             </InfoBg>
             <InfoContent>
                 <InfoH1>Kimberly Salas</InfoH1>
-                <InfoP>Full-Stack Web Developer</InfoP>
-                <InfoBtnWrapper>
-                    {/* <Button to="signup">
+                <InfoP>React Portfolio</InfoP>
+                {/* <InfoBtnWrapper>
+                    <Button to="signup">
                         About Me
-                    </Button> */}
-                </InfoBtnWrapper>
+                    </Button>
+                </InfoBtnWrapper> */}
             </InfoContent>
         </InfoContainer>
     )

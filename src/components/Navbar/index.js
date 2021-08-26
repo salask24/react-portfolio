@@ -18,24 +18,23 @@ const Navbar = ({ toggle }) => {
                     {/* Nav links */}
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="#about">About Me</NavLinks>
+                            <NavLinks to="#AboutMe">About Me</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="#projects">Projects</NavLinks>
+                            <NavLinks to="#Projects">Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="#contact">Contact</NavLinks>
+                            <NavLinks to="#Contact">Contact</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="#resume">Resume</NavLinks>
+                            <NavLinks to="#Resume">Resume</NavLinks>
                         </NavItem>
                     </NavMenu>
                     {/* END of Nav links */}
-
                 </NavbarContainer>
             </Nav>
         </>
     );
 }
 
-export default Navbar
+export default Navbar;
