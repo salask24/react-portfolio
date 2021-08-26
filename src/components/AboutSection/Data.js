@@ -1,5 +1,5 @@
 export const homeObjOne = {
-    id: 'about',
+    id: 'About',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -16,14 +16,14 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id: 'Portfolio',
+    id: 'Contact',
     lightBg: true,
     lightText: false,
-    lightTextDesc: false,
-    topLine: 'Kimberly Salas',
-    headline: 'Full-Stack Web Developer',
-    description: 'A Full Stack Developer capable of producing scalable software solutions. Also, a team player with a knack for visual design and utility.',
-    buttonLabel: "About Me",
+    lightTextDesc: true,
+    // topLine: 'Contact Me',
+    headline: 'Contact Me',
+    description: 'Feel free to contact me!',
+    buttonLabel: "Github",
     imgStart: false,
     img: require('../../images/kim-1.JPG'),
     alt: 'salask',
@@ -37,8 +37,8 @@ export const homeObjThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Kimberly Salas',
-    headline: 'Full-Stack Web Developer',
+    // topLine: 'Resume',
+    headline: 'Resume',
     description: 'A Full Stack Developer capable of producing scalable software solutions. Also, a team player with a knack for visual design and utility.',
     buttonLabel: "About Me",
     imgStart: true,
