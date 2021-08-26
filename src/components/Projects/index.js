@@ -1,8 +1,8 @@
 import React from 'react'
 import { ProjectsContainter, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP  } from './ProjectsElements'
-import Icon1 from ('../../images/travel-tunes.png')
-import Icon2 from ('../../images/watchlist.png')
-import Icon3 from ('../../images/travelshare.png')
+import Icon1 from '../../images/travel-tunes.png'
+import Icon2 from '../../images/watchlist.png'
+import Icon3 from '../../images/travelshare.png'
 
 
 const Projects = () => {
