@@ -14,7 +14,7 @@ const AboutSection = ({lightBg, id, imgStart, topLine, lightText, headline, dark
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to="home">{buttonLabel}</Button>
+                                    <Button to="/">{buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
@@ -25,7 +25,6 @@ const AboutSection = ({lightBg, id, imgStart, topLine, lightText, headline, dark
                         </Column2>
                     </AboutRow>
                 </AboutWrapper>
-
             </AboutContainter>
         </>
     );

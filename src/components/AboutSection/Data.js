@@ -8,14 +8,29 @@ export const homeObjOne = {
     description: 'A Full Stack Developer capable of producing scalable software solutions. Also, a team player with a knack for visual design and utility.',
     buttonLabel: "About Me",
     imgStart: true,
-    img: require('../../images/kim-1.JPG'),
+    img: require('/'),
     alt: 'salask',
     dark: true,
     primary: true,
     darkText: false,
 };
-
 export const homeObjTwo = {
+    id: 'Resume',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    // topLine: 'Resume',
+    headline: 'Resume',
+    description: 'A Full Stack Developer capable of producing scalable software solutions. Also, a team player with a knack for visual design and utility.',
+    // buttonLabel: "About Me",
+    imgStart: true,
+    img: require('/'),
+    alt: 'salask',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+export const homeObjThree = {
     id: 'Contact',
     lightBg: true,
     lightText: false,
@@ -32,17 +47,17 @@ export const homeObjTwo = {
     darkText: true,
 };
 
-export const homeObjThree = {
-    id: 'about',
+export const homeObjFour = {
+    id: 'Resume',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     // topLine: 'Resume',
     headline: 'Resume',
-    description: 'A Full Stack Developer capable of producing scalable software solutions. Also, a team player with a knack for visual design and utility.',
-    buttonLabel: "About Me",
+    description: '',
+    // buttonLabel: "About Me",
     imgStart: true,
-    img: require('../../images/kim-1.JPG'),
+    img: require('/'),
     alt: 'salask',
     dark: true,
     primary: true,

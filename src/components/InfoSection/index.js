@@ -11,11 +11,11 @@ const InfoSection = () => {
             </InfoBg>
             <InfoContent>
                 <InfoH1>Kimberly Salas</InfoH1>
-                <InfoP>Full-Stack Wed Developer</InfoP>
+                <InfoP>Full-Stack Web Developer</InfoP>
                 <InfoBtnWrapper>
-                    <Button to="signup">
+                    {/* <Button to="signup">
                         About Me
-                    </Button>
+                    </Button> */}
                 </InfoBtnWrapper>
             </InfoContent>
         </InfoContainer>
