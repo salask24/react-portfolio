@@ -18,12 +18,12 @@ const Projects = () => {
                 <ProjectsCard>
                     <ProjectsIcon src={Icon2}/>
                     <ProjectsH2>Watchlist</ProjectsH2>
-                    <ProjectsP>Full-stack group project which consisted of using Node.js and Express.js to create a RESTful API. Also, used Handlebars.js for a templating engine and utilized MySQL and Sequelize ORM for the database.</ProjectsP>
+                    <ProjectsP>Full-stack group project which consisted of using Node.js and Express.js to create a RESTful API. Also, utilized MySQL and Sequelize ORM for the database.</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
                     <ProjectsIcon src={Icon3}/>
                     <ProjectsH2>Travel Share</ProjectsH2>
-                    <ProjectsP>Full-stack group project creating a MERN stack single-page application using React for front end, GraphQL with Node.js + Express.js for the server, andn MongoDB and Mongoose ODM for database.</ProjectsP>
+                    <ProjectsP>Full-stack group project creating a MERN stack single-page application using React for front end, GraphQL with Node.js + Express.js for the server, and MongoDB and Mongoose ODM for database.</ProjectsP>
                 </ProjectsCard>
             </ProjectsWrapper>
         </ProjectsContainter>
