@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "name": "starter-project",
-    "homepage": "https://tomerpacific.github.io/starter-project/", 
+    "homepage": "https://salask24.github.io/react-portfolio/", 
     "version": "0.1.0"
   },
   "eslintConfig": {
